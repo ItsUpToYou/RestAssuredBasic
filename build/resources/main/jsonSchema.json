@@ -1,0 +1,75 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1653064662.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "releaseDate",
+    "reviewScore",
+    "category",
+    "rating"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#root/id",
+      "title": "Id",
+      "type": "integer",
+      "examples": [
+        9
+      ],
+      "default": 0
+    },
+    "name": {
+      "$id": "#root/name",
+      "title": "Name",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "Final Fantasy VII"
+      ],
+      "pattern": "^.*$"
+    },
+    "releaseDate": {
+      "$id": "#root/releaseDate",
+      "title": "Releasedate",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "1997-08-20"
+      ],
+      "pattern": "^.*$"
+    },
+    "reviewScore": {
+      "$id": "#root/reviewScore",
+      "title": "Reviewscore",
+      "type": "integer",
+      "examples": [
+        97
+      ],
+      "default": 0
+    },
+    "category": {
+      "$id": "#root/category",
+      "title": "Category",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "RPG"
+      ],
+      "pattern": "^.*$"
+    },
+    "rating": {
+      "$id": "#root/rating",
+      "title": "Rating",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "PG-13"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
