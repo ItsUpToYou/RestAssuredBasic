@@ -1,4 +1,4 @@
-# RestAssuredFundamentals with Gradle
+## RestAssuredFundamentals with Gradle
 
 This is all of the code used in my exercises for REST Assured Fundamentals
 
